@@ -3,7 +3,7 @@ html {
   }
   
   body {
-    background-color: white;
+    background-color: #DEE1DD;
     position: relative;
     min-height: 100vh;
     padding: 0;
@@ -33,7 +33,7 @@ html {
     align-items: center;
     text-align: center;
   
-    background-color: black;
+    background-color: #2F575D;
     color: white;
     padding: 0px 0px;
   
@@ -56,14 +56,28 @@ html {
     text-decoration: none;
     letter-spacing: 2px;
   }
-  
+  .griffith-image{
+    position: absolute;
+    right: 1000px 
+
+  }
+  .about-text section{
+    position: absolute;
+    font-size: larger;
+    right: 150px;
+    width: 700px;
+    padding: 15px;
+    border: outset #658b6f 10px;
+
+  }
+
   /* CSS for page footer */
   
   .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #2F575D;
     color: white;
     position: absolute;
     bottom: 0;
