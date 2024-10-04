@@ -57,6 +57,26 @@ html {
     transition: padding .3s;
   }
   
+  #contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+
+  }
+  .section{
+    border: outset #2F575D 10px;
+    padding: 10px;
+  }
+  .resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    height: 1400px;
+  }
   .navbar a:hover {
     box-shadow: 0px 5px 5px #28363d;
     padding:12px;
@@ -75,7 +95,6 @@ html {
     border: outset #2F575D 10px;
 
   }
-
   /* CSS for page footer */
   
   .footer {
